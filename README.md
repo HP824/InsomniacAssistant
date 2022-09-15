@@ -1,4 +1,4 @@
-# Insomniac Assistant v1.0
+# Insomniac Assistant
 Insomniac Assistant is a Twitch ChatBot created to facilitate calculations needed during Minecraft Java Edition version 1.15.2 Insomniac-Style Speedruns. 
 
 In a standard 1.15.2 Insomniac Speedrun, the player is required to collect a minimum of **34 emeralds** alongside 72 gold ingots to acquire a minimum of 12 ender pearls in tandem with 
