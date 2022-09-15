@@ -19,7 +19,7 @@ and produces an output of
 ```
 
 ## Notes
-- This is **NOT** a stable release and is here for archival purposes until a specified working release is commited
+- v1.0 is **NOT** a stable release and is here for archival purposes until a working release is specified
 - Future improvements will account for variations on the Insomniac-Style Speedrun
 - Additional parameters like wheat and TNT will be accounted for to improve the functionality of this chatbot
 - Will try to make functional for anyone to use in their Twitch chat
