@@ -37,7 +37,7 @@ Where the first number is the amount of emeralds and the second number is the am
 @username, 12 pearls with maximum gold traded!
 ```
 
-For a little bit of chat interactivity, why not say hello to Insomnaic Assistant! Enter the command:
+For a little bit of chat interactivity, why not say hello to Insomniac Assistant! Enter the command:
 ```
 !hello
 ```
