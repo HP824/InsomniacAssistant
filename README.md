@@ -9,23 +9,49 @@ Specifically, this chatbot attempts to eliminate most calculations surrounding h
 
 ## Features
 As of v1.0, this chatbot takes in the command `!logs` and a number representing the current amount of emeralds a player has acquired.
-For example, if a player wishes to know how many logs they will need to supplement 17 emeralds, this is entered into the Twitch chat as
+For example, if a user wishes to know how many logs they will need to supplement 17 emeralds, this is entered into the Twitch chat as:
 ```
 !logs 17
 ```
-and produces an output of 
+and Insomniac Assistant responds with: 
 ```
-64 + 4 logs
+@username, 64 + 4 logs
+```
+
+With the changes brought by v2.0, users will now be able to calculate the amount of pearls they can acquire through the Regular and Contaria Insomniac Variation by using the commands `!trade` and `!contaria` respectively. 
+
+The command `!trade` is easy to use. To find out how many pearls one will acquire with 24 emeralds, the user will enter
+```
+!trade 24
+``` 
+and the bot responds with 
+```
+@username, 9 pearls with 2 emeralds left!
+```
+The command `!contaria` followed by two numbers such as:
+```
+!contaria 26 12
+```
+Where the first number is the amount of emeralds and the second number is the amount of extra gold ingots apart from a set 72 ingots needed to perform Insomniac. The bot's output would read as such:
+```
+@username, 12 pearls with maximum gold traded!
+```
+
+For a little bit of chat interactivity, why not say hello to Insomnaic Assistant! Enter the command:
+```
+!hello
+```
+To be greeted by Insomniac Assistant:
+```
+@username, Insomniac!
 ```
 
 ## Notes
-- v1.0 is **NOT** a stable release and is here for archival purposes until a working release is specified
-- Future improvements will account for variations on the Insomniac-Style Speedrun
-- Additional parameters like wheat and TNT will be accounted for to improve the functionality of this chatbot
+- v2.0 is a functional release but has not been thoroughly checked for bugs or discrepancies
+- Additional parameters like wheat and TNT may be accounted for in the future
 - Will try to make functional for anyone to use in their Twitch chat
-- OAuth token removed for privacy and security
-- Not a legal tool for speedruns at the moment
-- Anyone is welcome to leave suggestions to improve the bot functionality
+- This bot has not been legalized for 1.15.2 Minecraft Java Speedruns
+- Suggestions and feedback are encouraged to improve the bot's functionality
 
 ## Contributions
 - [DuncanRuns and Daferade for original chart](https://twitter.com/Daferade/status/1444045314839699459)
