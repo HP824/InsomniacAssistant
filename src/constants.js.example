@@ -1,0 +1,2 @@
+export const CHANNEL_NAME = '_-YOUR CHANNEL NAME HERE__'
+export const BOT_NAME = '__YOUR BOT NAME HERE__'

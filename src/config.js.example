@@ -1,1 +1,1 @@
-export const OAUTH_TOKEN = '__OAUTH TOKEN GOES HERE__'
+export const OAUTH_TOKEN = '__YOUR OAUTH TOKEN HERE__'
